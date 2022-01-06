@@ -4,17 +4,15 @@ import "./CustomSelect.css";
 const CustomSelect = ({ selectOptions, defaultOption, fieldErrorStatus, setFieldErrorStatus }) => {
 
     const searchVal = useRef();
-    const [optionsContainerDisplayStatus, setOptionsContainerDisplayStatus] = useState(true);
+
     const [optionContainerWidth, setOptionContainerWidth] = useState('auto');
-    // const [optionsContainerDisplayStatus, setOptionsContainerDisplayStatus] = useState(false);
+    // const [optionsContainerDisplayStatus, setOptionsContainerDisplayStatus] = useState(true);
+    const [optionsContainerDisplayStatus, setOptionsContainerDisplayStatus] = useState(false);
 
     const optionContainerRef = useRef(null);
 
     useEffect(() => {
-
-        setTimeout(() => {
-            setOptionContainerWidth(`${optionContainerRef.current.offsetWidth}px`);
-        }, 0);
+        setOptionContainerWidth(`${optionContainerRef.current.offsetWidth}px`);
     }, [selectOptions]);
 
     const handleSearchVal = () => {
@@ -28,12 +26,13 @@ const CustomSelect = ({ selectOptions, defaultOption, fieldErrorStatus, setField
 
     const handleHideOptionsEvent = () => {
         console.log('handleHideOptionsEvent');
-        // setOptionsContainerDisplayStatus(false);
+        setOptionsContainerDisplayStatus(false);
     }
 
     const handleOptionSelection = (optn) => {
         console.log('handleOptionSelection', optn);
-        // fieldErrorStatus && setFieldErrorStatus(false);
+        fieldErrorStatus && setFieldErrorStatus(false);
+        handleHideOptionsEvent();
     }
 
     const handleDefaultOptionSelection = () => {
@@ -54,11 +53,12 @@ const CustomSelect = ({ selectOptions, defaultOption, fieldErrorStatus, setField
                 >
                     <div className='caca-child-b--csc'>
                         {defaultOption.title}
+                        <span className='caca-child-a--csc'>
+
+                        </span>
                     </div>
 
-                    <span className='caca-child-a--csc'>
 
-                    </span>
 
                 </div>
 
@@ -68,6 +68,8 @@ const CustomSelect = ({ selectOptions, defaultOption, fieldErrorStatus, setField
                     <div className='cacb-child-a--csc'>
                         <input type='text'
                             ref={searchVal}
+                            onFocus={handleDisplayOptionsEvent}
+                            // onBlur={handleHideOptionsEvent}
                             onChange={handleSearchVal}
                             className='cacb-child-a--csc'
                         />
