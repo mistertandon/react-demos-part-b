@@ -104,53 +104,31 @@ video {
 }
 
 .ca-child-a--csc {
-    width            : 100%;
-    /* position      : relative; */
-    display          : flex;
-    flex-direction   : row;
+    width          : 100%;
+    border         : 1px solid black;
+    padding-left   : 5px;
+    padding-right  : 5px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
 }
-
 
 .caca-child-a--csc {
-    flex             : 0 0 0px;
-    display          : block;
-    /* pointer-events: none; */
-}
-
-.caca-child-a--csc::after,
-.caca-child-a--csc::before {
-    content            : '';
-    position           : absolute;
-    width              : 0;
-    height             : 0;
-    --select-arrow-size: 6px;
-    right              : 0;
-    top                : 50%;
-    transform          : translate(-50%, -50%);
-
-
-}
-
-.caca-child-a--csc::before {
-    border-left  : var(--select-arrow-size) solid transparent;
-    border-right : var(--select-arrow-size) solid transparent;
-    border-bottom: var(--select-arrow-size) solid red;
-    top          : 25%;
-}
-
-.caca-child-a--csc::after {
-    border-left : var(--select-arrow-size) solid transparent;
-    border-right: var(--select-arrow-size) solid transparent;
-    border-top  : var(--select-arrow-size) solid red;
-    top         : 70%;
+    flex    : 0 0 auto;
+    position: relative;
 }
 
 .caca-child-b--csc {
-    flex    : 0 0 100%;
-    position: relative;
-
+    flex: 0 0 10px;
 }
 
+.caca-child-c--csc {
+    flex: 0 0 10px;
+}
+
+.cacb-child-b--csc {
+    /* border: 1px solid black; */
+}
 
 .ca-child-b--csc {
     width           : max-content;
@@ -160,11 +138,20 @@ video {
     background-color: #f8f4f4;
     color           : #000000;
     margin-top      : -5px;
+    box-shadow      : 2px 4px 1px #E0E0E0;
+    border          : 1px solid #C7C7C7;
+    border-radius   : 5px;
 
 }
 
 .cacb-child-a--csc {
     width: 100%;
+}
+
+.cacbca-child-a--csc {
+    border                 : none;
+    border-top-left-radius : 5px;
+    border-top-right-radius: 5px;
 }
 
 .display-options {
@@ -175,17 +162,24 @@ video {
 }
 
 .hide-options {
-    visibility: hidden;
-    transition: all 0.1s;
+    visibility    : hidden;
+    transition    : all 0.1s;
     pointer-events: none;
 }
 
 .option-child--scs {
-    width  : 100%;
-    padding: 5px;
-    border : 1px solid black;
+    width        : 100%;
+    padding      : 5px;
+    border-top   : 1px solid #A1A1A1;
+    border-right : none;
+    border-bottom: none;
+    border-left  : none;
 }
 
 .option-child--scs:hover {
     background-color: #C7C7C7;
+}
+
+.ca-child-b--csc .cacb-child-a--csc:nth-child(1) {
+    border-top: none;
 }

@@ -1,0 +1,13 @@
+.border-none--app-gl {
+    border: none;
+}
+
+.app--container {
+    display       : flex;
+    flex-direction: column;
+}
+
+.child-a--ac {
+    margin: 30px auto;
+
+}
