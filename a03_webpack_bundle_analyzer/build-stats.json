@@ -1,0 +1,258 @@
+{
+    "hash": "d7d2e07b19129f24063c",
+    "version": "5.65.0",
+    "time": 260,
+    "builtAt": 1641558102315,
+    "publicPath": "auto",
+    "outputPath": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\dist",
+    "assetsByChunkName": {
+        "main": [
+            "main.js"
+        ]
+    },
+    "assets": [
+        {
+            "type": "asset",
+            "name": "main.js",
+            "size": 331,
+            "emitted": false,
+            "comparedForEmit": false,
+            "cached": true,
+            "info": {
+                "javascriptModule": false,
+                "minimized": true
+            },
+            "chunkNames": [
+                "main"
+            ],
+            "chunkIdHints": [],
+            "auxiliaryChunkNames": [],
+            "auxiliaryChunkIdHints": [],
+            "related": {},
+            "chunks": [
+                179
+            ],
+            "auxiliaryChunks": [],
+            "isOverSizeLimit": false
+        }
+    ],
+    "chunks": [
+        {
+            "rendered": true,
+            "initial": true,
+            "entry": true,
+            "recorded": false,
+            "size": 500,
+            "sizes": {
+                "javascript": 500
+            },
+            "names": [
+                "main"
+            ],
+            "idHints": [],
+            "runtime": [
+                "main"
+            ],
+            "files": [
+                "main.js"
+            ],
+            "auxiliaryFiles": [],
+            "hash": "cea4c55ada97dac8022d",
+            "childrenByOrder": {},
+            "id": 179,
+            "siblings": [],
+            "parents": [],
+            "children": [],
+            "modules": [
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 500,
+                    "sizes": {
+                        "javascript": 500
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+                    "name": "./src/index.js",
+                    "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+                    "index": 0,
+                    "preOrderIndex": 0,
+                    "index2": 0,
+                    "postOrderIndex": 0,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "dependent": false,
+                    "issuer": null,
+                    "issuerName": null,
+                    "issuerPath": null,
+                    "failed": true,
+                    "errors": 1,
+                    "warnings": 0,
+                    "id": 138,
+                    "issuerId": null,
+                    "chunks": [
+                        179
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": "entry",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "./src",
+                            "loc": "main",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": [],
+                    "providedExports": null,
+                    "optimizationBailout": [
+                        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                    ],
+                    "depth": 0
+                }
+            ],
+            "origins": [
+                {
+                    "module": "",
+                    "moduleIdentifier": "",
+                    "moduleName": "",
+                    "loc": "main",
+                    "request": "./src"
+                }
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "type": "module",
+            "moduleType": "javascript/auto",
+            "layer": null,
+            "size": 500,
+            "sizes": {
+                "javascript": 500
+            },
+            "built": true,
+            "codeGenerated": true,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+            "name": "./src/index.js",
+            "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+            "index": 0,
+            "preOrderIndex": 0,
+            "index2": 0,
+            "postOrderIndex": 0,
+            "cacheable": true,
+            "optional": false,
+            "orphan": false,
+            "issuer": null,
+            "issuerName": null,
+            "issuerPath": null,
+            "failed": true,
+            "errors": 1,
+            "warnings": 0,
+            "id": 138,
+            "issuerId": null,
+            "chunks": [
+                179
+            ],
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleIdentifier": null,
+                    "module": null,
+                    "moduleName": null,
+                    "resolvedModuleIdentifier": null,
+                    "resolvedModule": null,
+                    "type": "entry",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": "./src",
+                    "loc": "main",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                }
+            ],
+            "usedExports": [],
+            "providedExports": null,
+            "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+            ],
+            "depth": 0
+        }
+    ],
+    "entrypoints": {
+        "main": {
+            "name": "main",
+            "chunks": [
+                179
+            ],
+            "assets": [
+                {
+                    "name": "main.js"
+                }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": null,
+            "auxiliaryAssets": [],
+            "filteredAuxiliaryAssets": 0,
+            "auxiliaryAssetsSize": 0,
+            "children": {},
+            "childAssets": {},
+            "isOverSizeLimit": false
+        }
+    },
+    "namedChunkGroups": {
+        "main": {
+            "name": "main",
+            "chunks": [
+                179
+            ],
+            "assets": [
+                {
+                    "name": "main.js"
+                }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": null,
+            "auxiliaryAssets": [],
+            "filteredAuxiliaryAssets": 0,
+            "auxiliaryAssetsSize": 0,
+            "children": {},
+            "childAssets": {},
+            "isOverSizeLimit": false
+        }
+    },
+    "errors": [
+        {
+            "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+            "moduleName": "./src/index.js",
+            "loc": "8:2",
+            "message": "Module parse failed: Unexpected token (8:2)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n| \n| ReactDOM.render(\n>   <React.StrictMode>\n|     <App />\n|   </React.StrictMode>,",
+            "moduleId": 138,
+            "moduleTrace": [],
+            "stack": "ModuleParseError: Module parse failed: Unexpected token (8:2)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n| \n| ReactDOM.render(\n>   <React.StrictMode>\n|     <App />\n|   </React.StrictMode>,\n    at handleParseError (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\NormalModule.js:969:19)\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\NormalModule.js:1088:5\n    at processResult (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\NormalModule.js:793:11)\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\NormalModule.js:853:5\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:406:3\n    at iterateNormalLoaders (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:232:10)\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:223:4\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\NormalModule.js:827:15\n    at Array.eval (eval at create (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:12:1)\n    at runCallbacks (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:27:15)"
+        }
+    ],
+    "errorsCount": 1,
+    "warnings": [
+        {
+            "message": "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/",
+            "stack": "NoModeWarning: configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\WarnNoModeSetPlugin.js:20:30\n    at Hook.eval [as call] (eval at create (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:21:1)\n    at Hook.CALL_DELEGATE [as _call] (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at Compiler.newCompilation (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\Compiler.js:1054:30)\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\Compiler.js:1099:29\n    at Hook.eval [as callAsync] (eval at create (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at Compiler.compile (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\Compiler.js:1094:28)\n    at D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\Compiler.js:519:12\n    at Compiler.readRecords (D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\webpack\\lib\\Compiler.js:931:11)"
+        }
+    ],
+    "warningsCount": 1,
+    "children": []
+}
