@@ -1,23 +1,52 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import CustomSelect from './components/CustomSelect';
 
 function App() {
+  const selectOptions = [
+    {
+      title: 'One',
+      value: 1,
+    },
+    {
+      title: 'Two',
+      value: 2,
+    },
+    {
+      title: 'Three',
+      value: 3,
+    },
+    {
+      title: 'Four',
+      value: 4,
+    },
+    {
+      title: 'Five',
+      value: 5,
+    }
+  ];
+
+  const defaultOption = { title: 'Select Option', value: '' };
+
+  const [selectFieldAgeError, setSelectFieldAgeError] = useState(false);
+
   return (
-    <div className="App">
+    <div className="app--container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
+      <div className='child-a--ac'>
+        <CustomSelect selectOptions={selectOptions}
+          defaultOption={defaultOption}
+          fieldErrorStatus={selectFieldAgeError}
+          setFieldErrorStatus={setSelectFieldAgeError}
+        />
+      </div>
+
+      <div>
+        Hello
+      </div>
+
     </div>
   );
 }
