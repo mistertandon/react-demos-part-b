@@ -1,10 +1,52 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-
+    mode: 'development',
+    watch: true,
     entry: './src/index.js',
     output: {
-        filename: 'main.js',
+        filename: '[name]-bundle.js',
         path: path.resolve(__dirname, 'dist')
-    }
+    },
+    optimization: {
+        splitChunks: {
+            chunks: "all",
+            cacheGroups: {
+                vendor: {
+                    name: "vendor",
+                    chunks: "initial",
+                    minChunks: 2
+                }
+            }
+        }
+    },
+    module: {
+        rules: [
+            {
+                "test": /\.(js|jsx)$/,
+                "exclude": /node_modules/,
+                "use": {
+                    "loader": "babel-loader"
+                }
+            },
+            {
+                "test": /\.css$/,
+                "use": [
+                    "style-loader",
+                    "css-loader"
+                ]
+            },
+        ]
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: "Application name",
+            template: './src/index.html'
+        }),
+        new BundleAnalyzerPlugin({
+            generateStatsFile: true
+        })
+    ]
 };
