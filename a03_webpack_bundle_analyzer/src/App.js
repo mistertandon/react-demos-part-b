@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import OptimizedLodash from './components/optimizedLodash/OptimizedLodash';
 import OptimizedUuid from './components/optimizedUuid/OptimizedUuid';
 
 function App() {
@@ -8,7 +9,10 @@ function App() {
       <header className="header--container"></header>
       <div>Hello</div>
       <div className="uuid--container">
-        <OptimizedUuid yup={1} tup={2} />
+        <OptimizedUuid />
+      </div>
+      <div className="uuid--container">
+        <OptimizedLodash />
       </div>
     </div>
   );

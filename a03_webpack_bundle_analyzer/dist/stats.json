@@ -1,8 +1,8 @@
 {
-  "hash": "40359361d32b968eadd8",
+  "hash": "41c8c6b7528a5fefefd2",
   "version": "5.65.0",
-  "time": 2792,
-  "builtAt": 1641749393594,
+  "time": 5384,
+  "builtAt": 1641752884059,
   "publicPath": "auto",
   "outputPath": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\dist",
   "assetsByChunkName": {
@@ -13,14 +13,14 @@
   "assets": [
     {
       "type": "asset",
-      "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493-bundle.js",
-      "size": 1257195,
+      "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493-bundle.js",
+      "size": 1258026,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "javascriptModule": false,
-        "size": 1257195
+        "size": 1258026
       },
       "chunkNames": [],
       "chunkIdHints": [
@@ -30,7 +30,7 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -38,13 +38,13 @@
     {
       "type": "asset",
       "name": "main-bundle.js",
-      "size": 73806,
+      "size": 75596,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "javascriptModule": false,
-        "size": 73806
+        "size": 75596
       },
       "chunkNames": [
         "main"
@@ -107,10 +107,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 39949,
+      "size": 40407,
       "sizes": {
         "runtime": 32251,
-        "javascript": 7698
+        "javascript": 8156
       },
       "names": [
         "main"
@@ -123,11 +123,11 @@
         "main-bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "cf7a3d1b8a99d9d9d9d7",
+      "hash": "8a972091c97a9d4c140d",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "parents": [],
       "children": [
@@ -826,9 +826,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 548,
+          "size": 738,
           "sizes": {
-            "javascript": 548
+            "javascript": 738
           },
           "built": true,
           "codeGenerated": true,
@@ -839,8 +839,8 @@
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
           "index": 42,
           "preOrderIndex": 42,
-          "index2": 49,
-          "postOrderIndex": 49,
+          "index2": 51,
+          "postOrderIndex": 51,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -904,9 +904,92 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 274,
+          "size": 306,
           "sizes": {
-            "javascript": 274
+            "javascript": 306
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "name": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "index": 45,
+          "preOrderIndex": 45,
+          "index2": 44,
+          "postOrderIndex": 44,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "issuerName": "./src/App.js",
+          "issuerPath": [
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "name": "./src/App.js",
+              "id": "./src/App.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "issuerId": "./src/App.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "module": "./src/App.js",
+              "moduleName": "./src/App.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "resolvedModule": "./src/App.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./components/optimizedLodash/OptimizedLodash",
+              "loc": "3:0-75",
+              "moduleId": "./src/App.js",
+              "resolvedModuleId": "./src/App.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "module": "./src/App.js",
+              "moduleName": "./src/App.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "resolvedModule": "./src/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./components/optimizedLodash/OptimizedLodash",
+              "loc": "15:38-53",
+              "moduleId": "./src/App.js",
+              "resolvedModuleId": "./src/App.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 236,
+          "sizes": {
+            "javascript": 236
           },
           "built": true,
           "codeGenerated": true,
@@ -915,10 +998,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedUuid\\OptimizedUuid.js",
           "name": "./src/components/optimizedUuid/OptimizedUuid.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedUuid\\OptimizedUuid.js",
-          "index": 45,
-          "preOrderIndex": 45,
-          "index2": 48,
-          "postOrderIndex": 48,
+          "index": 47,
+          "preOrderIndex": 47,
+          "index2": 50,
+          "postOrderIndex": 50,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -957,7 +1040,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./components/optimizedUuid/OptimizedUuid",
-              "loc": "3:0-69",
+              "loc": "4:0-69",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
             },
@@ -971,7 +1054,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./components/optimizedUuid/OptimizedUuid",
-              "loc": "12:38-51",
+              "loc": "13:38-51",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
             }
@@ -1064,8 +1147,8 @@
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
           "index": 22,
           "preOrderIndex": 22,
-          "index2": 51,
-          "postOrderIndex": 51,
+          "index2": 53,
+          "postOrderIndex": 53,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1118,10 +1201,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\reportWebVitals.js",
           "name": "./src/reportWebVitals.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\reportWebVitals.js",
-          "index": 51,
-          "preOrderIndex": 51,
-          "index2": 50,
-          "postOrderIndex": 50,
+          "index": 53,
+          "preOrderIndex": 53,
+          "index2": 52,
+          "postOrderIndex": 52,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1770,7 +1853,7 @@
       "siblings": [],
       "parents": [
         "main",
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "children": [],
       "modules": [
@@ -1789,10 +1872,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\web-vitals\\dist\\web-vitals.js",
           "name": "./node_modules/web-vitals/dist/web-vitals.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\web-vitals\\dist\\web-vitals.js",
-          "index": 52,
-          "preOrderIndex": 52,
-          "index2": 52,
-          "postOrderIndex": 52,
+          "index": 54,
+          "preOrderIndex": 54,
+          "index2": 54,
+          "postOrderIndex": 54,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1865,9 +1948,9 @@
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: defaultVendors)",
-      "size": 1173812,
+      "size": 1174316,
       "sizes": {
-        "javascript": 1173812
+        "javascript": 1174316
       },
       "names": [],
       "idHints": [
@@ -1877,12 +1960,12 @@
         "main"
       ],
       "files": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493-bundle.js"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493-bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "88357338d61d8269c81d",
+      "hash": "d1691f47652a258353a6",
       "childrenByOrder": {},
-      "id": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493",
+      "id": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493",
       "siblings": [
         "main"
       ],
@@ -1934,7 +2017,7 @@
           "id": "./node_modules/ansi-html-community/index.js",
           "issuerId": "./node_modules/webpack-dev-server/client/overlay.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2025,8 +2108,8 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
           "issuerPath": [
             {
               "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
@@ -2034,23 +2117,28 @@
               "id": "./src/index.js"
             },
             {
-              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "name": "./src/App.js",
+              "id": "./src/App.js"
             },
             {
-              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
-              "id": "./node_modules/css-loader/dist/cjs.js!./src/index.css"
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+              "name": "./src/App.css",
+              "id": "./src/App.css"
+            },
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/App.css"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/css-loader/dist/runtime/api.js",
-          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2155,8 +2243,8 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
           "issuerPath": [
             {
               "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
@@ -2164,23 +2252,28 @@
               "id": "./src/index.js"
             },
             {
-              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "name": "./src/App.js",
+              "id": "./src/App.js"
             },
             {
-              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
-              "id": "./node_modules/css-loader/dist/cjs.js!./src/index.css"
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+              "name": "./src/App.css",
+              "id": "./src/App.css"
+            },
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/App.css"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
-          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2305,7 +2398,7 @@
           "id": "./node_modules/events/events.js",
           "issuerId": "./node_modules/webpack/hot/emitter.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2388,7 +2481,7 @@
           "id": "./node_modules/html-entities/lib/index.js",
           "issuerId": "./node_modules/webpack-dev-server/client/overlay.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2504,7 +2597,7 @@
           "id": "./node_modules/html-entities/lib/named-references.js",
           "issuerId": "./node_modules/html-entities/lib/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2580,7 +2673,7 @@
           "id": "./node_modules/html-entities/lib/numeric-unicode-map.js",
           "issuerId": "./node_modules/html-entities/lib/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2655,7 +2748,7 @@
           "id": "./node_modules/html-entities/lib/surrogate-pairs.js",
           "issuerId": "./node_modules/html-entities/lib/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2683,6 +2776,108 @@
             "highSurrogateTo"
           ],
           "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 504,
+          "sizes": {
+            "javascript": 504
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\times.js",
+          "name": "./node_modules/lodash/times.js",
+          "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\_baseTimes.js",
+          "index": 46,
+          "preOrderIndex": 46,
+          "index2": 43,
+          "postOrderIndex": 43,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "issuerName": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "issuerPath": [
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "name": "./src/App.js",
+              "id": "./src/App.js"
+            },
+            {
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "name": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "id": "./src/components/optimizedLodash/OptimizedLodash.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/lodash/times.js",
+          "issuerId": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "chunks": [
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash/times",
+              "loc": "1:0-34",
+              "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash/times",
+              "loc": "7:5-11",
+              "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\times.js",
+              "module": "./node_modules/lodash/times.js",
+              "moduleName": "./node_modules/lodash/times.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\times.js",
+              "resolvedModule": "./node_modules/lodash/times.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "20:0-14",
+              "moduleId": "./node_modules/lodash/times.js",
+              "resolvedModuleId": "./node_modules/lodash/times.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 20:0-14"
+          ],
           "depth": 3
         },
         {
@@ -2733,7 +2928,7 @@
           "id": "./node_modules/object-assign/index.js",
           "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2830,7 +3025,7 @@
           "id": "./node_modules/react-dom/cjs/react-dom.development.js",
           "issuerId": "./node_modules/react-dom/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2904,7 +3099,7 @@
           "id": "./node_modules/react-dom/index.js",
           "issuerId": "./src/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -2997,7 +3192,7 @@
           "id": "./node_modules/react/cjs/react.development.js",
           "issuerId": "./node_modules/react/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -3228,7 +3423,7 @@
           "id": "./node_modules/react/index.js",
           "issuerId": "./src/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -3256,7 +3451,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "6:22-41",
+              "loc": "7:22-41",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
             },
@@ -3270,7 +3465,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "8:18-37",
+              "loc": "9:18-37",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
             },
@@ -3284,7 +3479,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:19-38",
+              "loc": "11:19-38",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
             },
@@ -3298,7 +3493,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:75-94",
+              "loc": "11:75-94",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
             },
@@ -3312,9 +3507,65 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "12:18-37",
+              "loc": "13:18-37",
               "moduleId": "./src/App.js",
               "resolvedModuleId": "./src/App.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "module": "./src/App.js",
+              "moduleName": "./src/App.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "resolvedModule": "./src/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:74-93",
+              "moduleId": "./src/App.js",
+              "resolvedModuleId": "./src/App.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "module": "./src/App.js",
+              "moduleName": "./src/App.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+              "resolvedModule": "./src/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:18-37",
+              "moduleId": "./src/App.js",
+              "resolvedModuleId": "./src/App.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "2:0-26",
+              "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
+            },
+            {
+              "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+              "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "5:22-41",
+              "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+              "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
             },
             {
               "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedUuid\\OptimizedUuid.js",
@@ -3502,7 +3753,7 @@
           "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
           "issuerId": "./node_modules/scheduler/tracing.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -3715,7 +3966,7 @@
           "id": "./node_modules/scheduler/cjs/scheduler.development.js",
           "issuerId": "./node_modules/scheduler/index.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -3928,7 +4179,7 @@
           "id": "./node_modules/scheduler/index.js",
           "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4020,7 +4271,7 @@
           "id": "./node_modules/scheduler/tracing.js",
           "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4097,7 +4348,7 @@
           "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
           "issuerId": "./src/index.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4222,7 +4473,7 @@
           "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
           "issuerId": "./src/index.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4347,7 +4598,7 @@
           "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
           "issuerId": "./src/index.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4472,7 +4723,7 @@
           "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
           "issuerId": "./src/index.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4597,7 +4848,7 @@
           "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
           "issuerId": "./src/index.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4722,7 +4973,7 @@
           "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
           "issuerId": "./src/index.css",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4819,10 +5070,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\regex.js",
           "name": "./node_modules/uuid/dist/esm-browser/regex.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\regex.js",
-          "index": 50,
-          "preOrderIndex": 50,
-          "index2": 44,
-          "postOrderIndex": 44,
+          "index": 52,
+          "preOrderIndex": 52,
+          "index2": 46,
+          "postOrderIndex": 46,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4862,7 +5113,7 @@
           "id": "./node_modules/uuid/dist/esm-browser/regex.js",
           "issuerId": "./node_modules/uuid/dist/esm-browser/validate.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -4917,16 +5168,16 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\rng.js",
           "name": "./node_modules/uuid/dist/esm-browser/rng.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\rng.js",
-          "index": 47,
-          "preOrderIndex": 47,
-          "index2": 43,
-          "postOrderIndex": 43,
+          "index": 49,
+          "preOrderIndex": 49,
+          "index2": 45,
+          "postOrderIndex": 45,
           "cacheable": true,
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
-          "issuerName": "./node_modules/uuid/dist/esm-browser/v4.js",
+          "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v1.js",
+          "issuerName": "./node_modules/uuid/dist/esm-browser/v1.js",
           "issuerPath": [
             {
               "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
@@ -4949,18 +5200,18 @@
               "id": null
             },
             {
-              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
-              "name": "./node_modules/uuid/dist/esm-browser/v4.js",
-              "id": "./node_modules/uuid/dist/esm-browser/v4.js"
+              "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v1.js",
+              "name": "./node_modules/uuid/dist/esm-browser/v1.js",
+              "id": null
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/uuid/dist/esm-browser/rng.js",
-          "issuerId": "./node_modules/uuid/dist/esm-browser/v4.js",
+          "issuerId": null,
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5043,10 +5294,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\stringify.js",
           "name": "./node_modules/uuid/dist/esm-browser/stringify.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\stringify.js",
-          "index": 48,
-          "preOrderIndex": 48,
-          "index2": 46,
-          "postOrderIndex": 46,
+          "index": 50,
+          "preOrderIndex": 50,
+          "index2": 48,
+          "postOrderIndex": 48,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -5081,7 +5332,7 @@
           "id": "./node_modules/uuid/dist/esm-browser/stringify.js",
           "issuerId": null,
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5220,10 +5471,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
           "name": "./node_modules/uuid/dist/esm-browser/v4.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
-          "index": 46,
-          "preOrderIndex": 46,
-          "index2": 47,
-          "postOrderIndex": 47,
+          "index": 48,
+          "preOrderIndex": 48,
+          "index2": 49,
+          "postOrderIndex": 49,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -5258,7 +5509,7 @@
           "id": "./node_modules/uuid/dist/esm-browser/v4.js",
           "issuerId": null,
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5272,7 +5523,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "uuid",
-              "loc": "7:5-12",
+              "loc": "7:5-7",
               "moduleId": "./src/components/optimizedUuid/OptimizedUuid.js",
               "resolvedModuleId": "./src/components/optimizedUuid/OptimizedUuid.js"
             },
@@ -5327,10 +5578,10 @@
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\validate.js",
           "name": "./node_modules/uuid/dist/esm-browser/validate.js",
           "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\validate.js",
-          "index": 49,
-          "preOrderIndex": 49,
-          "index2": 45,
-          "postOrderIndex": 45,
+          "index": 51,
+          "preOrderIndex": 51,
+          "index2": 47,
+          "postOrderIndex": 47,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -5365,7 +5616,7 @@
           "id": "./node_modules/uuid/dist/esm-browser/validate.js",
           "issuerId": null,
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5532,7 +5783,7 @@
           "id": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
           "issuerId": "./node_modules/webpack-dev-server/client/socket.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5660,7 +5911,7 @@
           "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "issuerId": null,
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5726,7 +5977,7 @@
           "id": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
           "issuerId": "./node_modules/webpack-dev-server/client/utils/log.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5832,7 +6083,7 @@
           "id": "./node_modules/webpack-dev-server/client/modules/strip-ansi/index.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -5938,7 +6189,7 @@
           "id": "./node_modules/webpack-dev-server/client/overlay.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6116,7 +6367,7 @@
           "id": "./node_modules/webpack-dev-server/client/socket.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6194,7 +6445,7 @@
           "id": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6277,7 +6528,7 @@
           "id": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
           "issuerId": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6355,7 +6606,7 @@
           "id": "./node_modules/webpack-dev-server/client/utils/log.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6742,7 +6993,7 @@
           "id": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6820,7 +7071,7 @@
           "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -6912,7 +7163,7 @@
           "id": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
           "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -7068,7 +7319,7 @@
           "id": "./node_modules/webpack/hot/dev-server.js",
           "issuerId": null,
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -7129,7 +7380,7 @@
           "id": "./node_modules/webpack/hot/emitter.js",
           "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -7235,7 +7486,7 @@
           "id": "./node_modules/webpack/hot/log-apply-result.js",
           "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -7313,7 +7564,7 @@
           "id": "./node_modules/webpack/hot/log.js",
           "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
-            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+            "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
           ],
           "assets": [],
           "reasons": [
@@ -7453,7 +7704,7 @@
       "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "issuerId": null,
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -7507,7 +7758,7 @@
       "id": "./node_modules/webpack/hot/dev-server.js",
       "issuerId": null,
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -7547,8 +7798,8 @@
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
       "index": 22,
       "preOrderIndex": 22,
-      "index2": 51,
-      "postOrderIndex": 51,
+      "index2": 53,
+      "postOrderIndex": 53,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -7622,7 +7873,7 @@
       "id": "./node_modules/webpack/hot/log.js",
       "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -7741,7 +7992,7 @@
       "id": "./node_modules/webpack-dev-server/client/modules/strip-ansi/index.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -7846,7 +8097,7 @@
       "id": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -7923,7 +8174,7 @@
       "id": "./node_modules/webpack-dev-server/client/socket.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8000,7 +8251,7 @@
       "id": "./node_modules/webpack-dev-server/client/utils/log.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8386,7 +8637,7 @@
       "id": "./node_modules/webpack-dev-server/client/overlay.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8563,7 +8814,7 @@
       "id": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8724,7 +8975,7 @@
       "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8815,7 +9066,7 @@
       "id": "./node_modules/webpack/hot/emitter.js",
       "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8920,7 +9171,7 @@
       "id": "./node_modules/webpack-dev-server/client/utils/createSocketURL.js",
       "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -8997,7 +9248,7 @@
       "id": "./node_modules/webpack/hot/log-apply-result.js",
       "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -9074,7 +9325,7 @@
       "id": "./node_modules/react/index.js",
       "issuerId": "./src/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -9102,7 +9353,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "6:22-41",
+          "loc": "7:22-41",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
         },
@@ -9116,7 +9367,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "8:18-37",
+          "loc": "9:18-37",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
         },
@@ -9130,7 +9381,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:19-38",
+          "loc": "11:19-38",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
         },
@@ -9144,7 +9395,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:75-94",
+          "loc": "11:75-94",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
         },
@@ -9158,9 +9409,65 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "12:18-37",
+          "loc": "13:18-37",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "module": "./src/App.js",
+          "moduleName": "./src/App.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "resolvedModule": "./src/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:74-93",
+          "moduleId": "./src/App.js",
+          "resolvedModuleId": "./src/App.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "module": "./src/App.js",
+          "moduleName": "./src/App.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "resolvedModule": "./src/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:18-37",
+          "moduleId": "./src/App.js",
+          "resolvedModuleId": "./src/App.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "2:0-26",
+          "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "5:22-41",
+          "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
         },
         {
           "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedUuid\\OptimizedUuid.js",
@@ -9332,7 +9639,7 @@
       "id": "./node_modules/react-dom/index.js",
       "issuerId": "./src/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -9449,9 +9756,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 548,
+      "size": 738,
       "sizes": {
-        "javascript": 548
+        "javascript": 738
       },
       "built": true,
       "codeGenerated": true,
@@ -9462,8 +9769,8 @@
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
       "index": 42,
       "preOrderIndex": 42,
-      "index2": 49,
-      "postOrderIndex": 49,
+      "index2": 51,
+      "postOrderIndex": 51,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -9537,10 +9844,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\reportWebVitals.js",
       "name": "./src/reportWebVitals.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\reportWebVitals.js",
-      "index": 51,
-      "preOrderIndex": 51,
-      "index2": 50,
-      "postOrderIndex": 50,
+      "index": 53,
+      "preOrderIndex": 53,
+      "index2": 52,
+      "postOrderIndex": 52,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -9641,7 +9948,7 @@
       "id": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
       "issuerId": "./node_modules/webpack-dev-server/client/utils/parseURL.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -9723,7 +10030,7 @@
       "id": "./node_modules/webpack-dev-server/client/clients/WebSocketClient.js",
       "issuerId": "./node_modules/webpack-dev-server/client/socket.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -9861,7 +10168,7 @@
       "id": "./node_modules/webpack-dev-server/client/modules/logger/index.js",
       "issuerId": "./node_modules/webpack-dev-server/client/utils/log.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -9971,7 +10278,7 @@
       "id": "./node_modules/ansi-html-community/index.js",
       "issuerId": "./node_modules/webpack-dev-server/client/overlay.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10081,7 +10388,7 @@
       "id": "./node_modules/html-entities/lib/index.js",
       "issuerId": "./node_modules/webpack-dev-server/client/overlay.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10191,7 +10498,7 @@
       "id": "./node_modules/events/events.js",
       "issuerId": "./node_modules/webpack/hot/emitter.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10273,7 +10580,7 @@
       "id": "./node_modules/react/cjs/react.development.js",
       "issuerId": "./node_modules/react/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10508,7 +10815,7 @@
       "id": "./node_modules/react-dom/cjs/react-dom.development.js",
       "issuerId": "./node_modules/react-dom/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10586,7 +10893,7 @@
       "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
       "issuerId": "./src/index.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10710,7 +11017,7 @@
       "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
       "issuerId": "./src/index.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10834,7 +11141,7 @@
       "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
       "issuerId": "./src/index.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -10958,7 +11265,7 @@
       "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
       "issuerId": "./src/index.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -11082,7 +11389,7 @@
       "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
       "issuerId": "./src/index.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -11206,7 +11513,7 @@
       "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
       "issuerId": "./src/index.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -11666,9 +11973,91 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 274,
+      "size": 306,
       "sizes": {
-        "javascript": 274
+        "javascript": 306
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+      "name": "./src/components/optimizedLodash/OptimizedLodash.js",
+      "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+      "index": 45,
+      "preOrderIndex": 45,
+      "index2": 44,
+      "postOrderIndex": 44,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+      "issuerName": "./src/App.js",
+      "issuerPath": [
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "name": "./src/App.js",
+          "id": "./src/App.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/components/optimizedLodash/OptimizedLodash.js",
+      "issuerId": "./src/App.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "module": "./src/App.js",
+          "moduleName": "./src/App.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "resolvedModule": "./src/App.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./components/optimizedLodash/OptimizedLodash",
+          "loc": "3:0-75",
+          "moduleId": "./src/App.js",
+          "resolvedModuleId": "./src/App.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "module": "./src/App.js",
+          "moduleName": "./src/App.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "resolvedModule": "./src/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./components/optimizedLodash/OptimizedLodash",
+          "loc": "15:38-53",
+          "moduleId": "./src/App.js",
+          "resolvedModuleId": "./src/App.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 236,
+      "sizes": {
+        "javascript": 236
       },
       "built": true,
       "codeGenerated": true,
@@ -11677,10 +12066,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedUuid\\OptimizedUuid.js",
       "name": "./src/components/optimizedUuid/OptimizedUuid.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedUuid\\OptimizedUuid.js",
-      "index": 45,
-      "preOrderIndex": 45,
-      "index2": 48,
-      "postOrderIndex": 48,
+      "index": 47,
+      "preOrderIndex": 47,
+      "index2": 50,
+      "postOrderIndex": 50,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -11718,7 +12107,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./components/optimizedUuid/OptimizedUuid",
-          "loc": "3:0-69",
+          "loc": "4:0-69",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
         },
@@ -11732,7 +12121,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./components/optimizedUuid/OptimizedUuid",
-          "loc": "12:38-51",
+          "loc": "13:38-51",
           "moduleId": "./src/App.js",
           "resolvedModuleId": "./src/App.js"
         }
@@ -11759,10 +12148,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\web-vitals\\dist\\web-vitals.js",
       "name": "./node_modules/web-vitals/dist/web-vitals.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\web-vitals\\dist\\web-vitals.js",
-      "index": 52,
-      "preOrderIndex": 52,
-      "index2": 52,
-      "postOrderIndex": 52,
+      "index": 54,
+      "preOrderIndex": 54,
+      "index2": 54,
+      "postOrderIndex": 54,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -11863,7 +12252,7 @@
       "id": "./node_modules/html-entities/lib/named-references.js",
       "issuerId": "./node_modules/html-entities/lib/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -11938,7 +12327,7 @@
       "id": "./node_modules/html-entities/lib/numeric-unicode-map.js",
       "issuerId": "./node_modules/html-entities/lib/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12012,7 +12401,7 @@
       "id": "./node_modules/html-entities/lib/surrogate-pairs.js",
       "issuerId": "./node_modules/html-entities/lib/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12089,7 +12478,7 @@
       "id": "./node_modules/object-assign/index.js",
       "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12190,7 +12579,7 @@
       "id": "./node_modules/scheduler/index.js",
       "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12281,7 +12670,7 @@
       "id": "./node_modules/scheduler/tracing.js",
       "issuerId": "./node_modules/react-dom/cjs/react-dom.development.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12337,8 +12726,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
       "issuerPath": [
         {
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
@@ -12346,23 +12735,28 @@
           "id": "./src/index.js"
         },
         {
-          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "name": "./src/App.js",
+          "id": "./src/App.js"
         },
         {
-          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-          "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
-          "id": "./node_modules/css-loader/dist/cjs.js!./src/index.css"
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+          "name": "./src/App.css",
+          "id": "./src/App.css"
+        },
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
+          "id": "./node_modules/css-loader/dist/cjs.js!./src/App.css"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
-      "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12466,8 +12860,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
       "issuerPath": [
         {
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
@@ -12475,23 +12869,28 @@
           "id": "./src/index.js"
         },
         {
-          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "name": "./src/App.js",
+          "id": "./src/App.js"
         },
         {
-          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.css",
-          "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
-          "id": "./node_modules/css-loader/dist/cjs.js!./src/index.css"
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\style-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+          "name": "./src/App.css",
+          "id": "./src/App.css"
+        },
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\css-loader\\dist\\cjs.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
+          "id": "./node_modules/css-loader/dist/cjs.js!./src/App.css"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/css-loader/dist/runtime/api.js",
-      "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/App.css",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12888,6 +13287,107 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 504,
+      "sizes": {
+        "javascript": 504
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\times.js",
+      "name": "./node_modules/lodash/times.js",
+      "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\_baseTimes.js",
+      "index": 46,
+      "preOrderIndex": 46,
+      "index2": 43,
+      "postOrderIndex": 43,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+      "issuerName": "./src/components/optimizedLodash/OptimizedLodash.js",
+      "issuerPath": [
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\App.js",
+          "name": "./src/App.js",
+          "id": "./src/App.js"
+        },
+        {
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "name": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "id": "./src/components/optimizedLodash/OptimizedLodash.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/lodash/times.js",
+      "issuerId": "./src/components/optimizedLodash/OptimizedLodash.js",
+      "chunks": [
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash/times",
+          "loc": "1:0-34",
+          "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "module": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "moduleName": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\components\\optimizedLodash\\OptimizedLodash.js",
+          "resolvedModule": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash/times",
+          "loc": "7:5-11",
+          "moduleId": "./src/components/optimizedLodash/OptimizedLodash.js",
+          "resolvedModuleId": "./src/components/optimizedLodash/OptimizedLodash.js"
+        },
+        {
+          "moduleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\times.js",
+          "module": "./node_modules/lodash/times.js",
+          "moduleName": "./node_modules/lodash/times.js",
+          "resolvedModuleIdentifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\lodash\\times.js",
+          "resolvedModule": "./node_modules/lodash/times.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "20:0-14",
+          "moduleId": "./node_modules/lodash/times.js",
+          "resolvedModuleId": "./node_modules/lodash/times.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 20:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 544,
       "sizes": {
         "javascript": 544
@@ -12899,10 +13399,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
       "name": "./node_modules/uuid/dist/esm-browser/v4.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
-      "index": 46,
-      "preOrderIndex": 46,
-      "index2": 47,
-      "postOrderIndex": 47,
+      "index": 48,
+      "preOrderIndex": 48,
+      "index2": 49,
+      "postOrderIndex": 49,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -12936,7 +13436,7 @@
       "id": "./node_modules/uuid/dist/esm-browser/v4.js",
       "issuerId": null,
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -12950,7 +13450,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "uuid",
-          "loc": "7:5-12",
+          "loc": "7:5-7",
           "moduleId": "./src/components/optimizedUuid/OptimizedUuid.js",
           "resolvedModuleId": "./src/components/optimizedUuid/OptimizedUuid.js"
         },
@@ -13049,7 +13549,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "2:0-29",
+          "loc": "2:0-26",
           "moduleId": "./src/components/optimizedUuid/OptimizedUuid.js",
           "resolvedModuleId": "./src/components/optimizedUuid/OptimizedUuid.js"
         },
@@ -13063,7 +13563,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "uuid",
-          "loc": "7:5-12",
+          "loc": "7:5-7",
           "moduleId": "./src/components/optimizedUuid/OptimizedUuid.js",
           "resolvedModuleId": "./src/components/optimizedUuid/OptimizedUuid.js"
         }
@@ -13135,7 +13635,7 @@
       "id": "./node_modules/scheduler/cjs/scheduler.development.js",
       "issuerId": "./node_modules/scheduler/index.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -13352,7 +13852,7 @@
       "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "issuerId": "./node_modules/scheduler/tracing.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -13527,15 +14027,15 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\rng.js",
       "name": "./node_modules/uuid/dist/esm-browser/rng.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\rng.js",
-      "index": 47,
-      "preOrderIndex": 47,
-      "index2": 43,
-      "postOrderIndex": 43,
+      "index": 49,
+      "preOrderIndex": 49,
+      "index2": 45,
+      "postOrderIndex": 45,
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
-      "issuerName": "./node_modules/uuid/dist/esm-browser/v4.js",
+      "issuer": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v1.js",
+      "issuerName": "./node_modules/uuid/dist/esm-browser/v1.js",
       "issuerPath": [
         {
           "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\babel-loader\\lib\\index.js!D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\src\\index.js",
@@ -13558,18 +14058,18 @@
           "id": null
         },
         {
-          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v4.js",
-          "name": "./node_modules/uuid/dist/esm-browser/v4.js",
-          "id": "./node_modules/uuid/dist/esm-browser/v4.js"
+          "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\v1.js",
+          "name": "./node_modules/uuid/dist/esm-browser/v1.js",
+          "id": null
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/uuid/dist/esm-browser/rng.js",
-      "issuerId": "./node_modules/uuid/dist/esm-browser/v4.js",
+      "issuerId": null,
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -13652,10 +14152,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\stringify.js",
       "name": "./node_modules/uuid/dist/esm-browser/stringify.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\stringify.js",
-      "index": 48,
-      "preOrderIndex": 48,
-      "index2": 46,
-      "postOrderIndex": 46,
+      "index": 50,
+      "preOrderIndex": 50,
+      "index2": 48,
+      "postOrderIndex": 48,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -13689,7 +14189,7 @@
       "id": "./node_modules/uuid/dist/esm-browser/stringify.js",
       "issuerId": null,
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -13828,10 +14328,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\validate.js",
       "name": "./node_modules/uuid/dist/esm-browser/validate.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\validate.js",
-      "index": 49,
-      "preOrderIndex": 49,
-      "index2": 45,
-      "postOrderIndex": 45,
+      "index": 51,
+      "preOrderIndex": 51,
+      "index2": 47,
+      "postOrderIndex": 47,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -13865,7 +14365,7 @@
       "id": "./node_modules/uuid/dist/esm-browser/validate.js",
       "issuerId": null,
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -14572,10 +15072,10 @@
       "identifier": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\regex.js",
       "name": "./node_modules/uuid/dist/esm-browser/regex.js",
       "nameForCondition": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\node_modules\\uuid\\dist\\esm-browser\\regex.js",
-      "index": 50,
-      "preOrderIndex": 50,
-      "index2": 44,
-      "postOrderIndex": 44,
+      "index": 52,
+      "preOrderIndex": 52,
+      "index2": 46,
+      "postOrderIndex": 46,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -14614,7 +15114,7 @@
       "id": "./node_modules/uuid/dist/esm-browser/regex.js",
       "issuerId": "./node_modules/uuid/dist/esm-browser/validate.js",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493"
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493"
       ],
       "assets": [],
       "reasons": [
@@ -15499,21 +15999,21 @@
     "main": {
       "name": "main",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493",
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493",
         "main"
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493-bundle.js",
-          "size": 1257195
+          "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493-bundle.js",
+          "size": 1258026
         },
         {
           "name": "main-bundle.js",
-          "size": 73806
+          "size": 75596
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 1331001,
+      "assetsSize": 1333622,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -15526,21 +16026,21 @@
     "main": {
       "name": "main",
       "chunks": [
-        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493",
+        "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493",
         "main"
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-aaa493-bundle.js",
-          "size": 1257195
+          "name": "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_noSo-bf1493-bundle.js",
+          "size": 1258026
         },
         {
           "name": "main-bundle.js",
-          "size": 73806
+          "size": 75596
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 1331001,
+      "assetsSize": 1333622,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -15558,8 +16058,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "f7876d01a166e13f5c2f",
       "version": "5.65.0",
-      "time": 760,
-      "builtAt": 1641749391600,
+      "time": 1549,
+      "builtAt": 1641752880261,
       "publicPath": "",
       "outputPath": "D:\\git_repos\\react-demos-part-b\\a03_webpack_bundle_analyzer\\dist",
       "assetsByChunkName": {},

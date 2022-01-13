@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -44,6 +45,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "Application name",
             template: './src/index.html'
+        }),
+        new LodashModuleReplacementPlugin({
+            "collections": true
         }),
         new BundleAnalyzerPlugin({
             generateStatsFile: true
